@@ -36,21 +36,21 @@ function displayCategories() {
     .join("");
 }
 
-// Display products dynamically
+// Display products dynamically with less information
 function displayProducts(productsToDisplay) {
   productsContainer.innerHTML = productsToDisplay
-    .map(
-      (product) => `
+    .map((product) => {
+      return `
       <div class="product-card">
         <img src="${product.image}" alt="${product.name}">
         <h3>${product.name}</h3>
-        <p>${product.description}</p>
-        <p><strong>Price:</strong> $${product.price.toFixed(2)}</p>
-        <p><strong>Rating:</strong> ${product.rating} ★</p>
-        <p><strong>Stock:</strong> ${product.stock}</p>
+        <p class="price"><strong>Price:</strong> $${product.price.toFixed(2)}</p>
+        <button class="add-to-cart-btn" ${
+          product.stock > 0 ? "" : "disabled"
+        }>Add to Cart</button>
       </div>
-    `
-    )
+      `;
+    })
     .join("");
 }
 

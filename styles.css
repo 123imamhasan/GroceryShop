@@ -47,6 +47,7 @@ aside {
 aside h2 {
   font-size: 1.5rem;
   margin-bottom: 1rem;
+  border-bottom: 1px dashed ;
 }
 
 #categories {
@@ -72,15 +73,15 @@ aside h2 {
 
 /* Product Display Styles */
 section#products {
-  flex: 3;
+  flex: 4;
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .product-card {
-  width: 200px;
+  width: 160px;
   background-color: white;
   border: 1px solid #ddd;
   border-radius: 5px;
@@ -115,6 +116,30 @@ section#products {
 
 .product-card strong {
   color: #333;
+}
+
+/* Add to Cart button styling */
+.add-to-cart-btn {
+  background-color: #28a745; /* Green background */
+  color: white; /* White text */
+  padding: 10px 15px; /* Button padding */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+/* Hover effect */
+.add-to-cart-btn:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+/* Disabled state */
+.add-to-cart-btn[disabled] {
+  background-color: #ccc; /* Light gray background */
+  color: #666; /* Gray text */
+  cursor: not-allowed; /* Not allowed cursor */
 }
 
 /* Footer Styles */
