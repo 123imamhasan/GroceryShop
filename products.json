@@ -1,0 +1,354 @@
+[
+
+  {
+    "id": 1,
+    "name": "Apples",
+    "price": 3.0,
+    "image": "folders.gif",
+    "category": "Fruits & Vegetables",
+    "stock": 50,
+    "rating": 4.5,
+    "description": "Fresh and crispy apples."
+  },
+  {
+    "id": 2,
+    "name": "Bananas",
+    "price": 1.5,
+    "image": "money-bag.gif",
+    "category": "Fruits & Vegetables",
+    "stock": 60,
+    "rating": 4.6,
+    "description": "Sweet and ripe bananas."
+  },
+  {
+    "id": 3,
+    "name": "Oranges",
+    "price": 4.0,
+    "image": "folders.gif",
+    "category": "Fruits & Vegetables",
+    "stock": 40,
+    "rating": 4.3,
+    "description": "Juicy and vitamin-rich oranges."
+  },
+  {
+    "id": 4,
+    "name": "Broccoli",
+    "price": 2.0,
+    "image": "money-bag.gif",
+    "category": "Fruits & Vegetables",
+    "stock": 30,
+    "rating": 4.2,
+    "description": "Fresh green broccoli."
+  },
+  {
+    "id": 5,
+    "name": "Carrots",
+    "price": 1.8,
+    "image": "images/carrots.jpg",
+    "category": "Fruits & Vegetables",
+    "stock": 45,
+    "rating": 4.4,
+    "description": "Crunchy and sweet carrots."
+  },
+  {
+    "id": 6,
+    "name": "Spinach",
+    "price": 1.2,
+    "image": "images/spinach.jpg",
+    "category": "Fruits & Vegetables",
+    "stock": 20,
+    "rating": 4.1,
+    "description": "Healthy green spinach leaves."
+  },
+  {
+    "id": 7,
+    "name": "Tomatoes",
+    "price": 2.5,
+    "image": "images/tomatoes.jpg",
+    "category": "Fruits & Vegetables",
+    "stock": 50,
+    "rating": 4.3,
+    "description": "Fresh and juicy tomatoes."
+  },
+
+  {
+    "id": 8,
+    "name": "Milk",
+    "price": 3.5,
+    "image": "images/milk.jpg",
+    "category": "Dairy",
+    "stock": 30,
+    "rating": 4.8,
+    "description": "Rich and creamy milk."
+  },
+  {
+    "id": 9,
+    "name": "Cheese",
+    "price": 5.0,
+    "image": "images/cheese.jpg",
+    "category": "Dairy",
+    "stock": 20,
+    "rating": 4.7,
+    "description": "Delicious and fresh cheese."
+  },
+  {
+    "id": 10,
+    "name": "Yogurt",
+    "price": 2.0,
+    "image": "images/yogurt.jpg",
+    "category": "Dairy",
+    "stock": 25,
+    "rating": 4.5,
+    "description": "Creamy and flavorful yogurt."
+  },
+  {
+    "id": 11,
+    "name": "Butter",
+    "price": 4.0,
+    "image": "images/butter.jpg",
+    "category": "Dairy",
+    "stock": 15,
+    "rating": 4.6,
+    "description": "Soft and smooth butter."
+  },
+
+  {
+    "id": 12,
+    "name": "Chicken Breasts",
+    "price": 10.0,
+    "image": "images/chicken_breasts.jpg",
+    "category": "Meats & Proteins",
+    "stock": 20,
+    "rating": 4.5,
+    "description": "Fresh and tender chicken breasts."
+  },
+  {
+    "id": 13,
+    "name": "Ground Beef",
+    "price": 8.0,
+    "image": "images/ground_beef.jpg",
+    "category": "Meats & Proteins",
+    "stock": 15,
+    "rating": 4.7,
+    "description": "Premium ground beef."
+  },
+  {
+    "id": 14,
+    "name": "Eggs",
+    "price": 2.5,
+    "image": "images/eggs.jpg",
+    "category": "Meats & Proteins",
+    "stock": 50,
+    "rating": 4.8,
+    "description": "Fresh farm eggs."
+  },
+  {
+    "id": 15,
+    "name": "Tofu",
+    "price": 3.0,
+    "image": "images/tofu.jpg",
+    "category": "Meats & Proteins",
+    "stock": 25,
+    "rating": 4.4,
+    "description": "Soft and healthy tofu."
+  },
+
+
+  {
+    "id": 16,
+    "name": "Bread",
+    "price": 2.0,
+    "image": "images/bread.jpg",
+    "category": "Bakery",
+    "stock": 30,
+    "rating": 4.6,
+    "description": "Freshly baked bread."
+  },
+  {
+    "id": 17,
+    "name": "Rolls",
+    "price": 1.5,
+    "image": "images/rolls.jpg",
+    "category": "Bakery",
+    "stock": 20,
+    "rating": 4.4,
+    "description": "Soft and fluffy rolls."
+  },
+  {
+    "id": 18,
+    "name": "Bagels",
+    "price": 3.0,
+    "image": "images/bagels.jpg",
+    "category": "Bakery",
+    "stock": 15,
+    "rating": 4.7,
+    "description": "Delicious bagels."
+  },
+
+
+  {
+    "id": 19,
+    "name": "Pasta",
+    "price": 2.5,
+    "image": "images/pasta.jpg",
+    "category": "Pantry Staples",
+    "stock": 40,
+    "rating": 4.5,
+    "description": "High-quality pasta."
+  },
+  {
+    "id": 20,
+    "name": "Rice",
+    "price": 3.0,
+    "image": "images/rice.jpg",
+    "category": "Pantry Staples",
+    "stock": 35,
+    "rating": 4.6,
+    "description": "Premium quality rice."
+  },
+  {
+    "id": 21,
+    "name": "Canned Beans",
+    "price": 1.8,
+    "image": "images/canned_beans.jpg",
+    "category": "Pantry Staples",
+    "stock": 25,
+    "rating": 4.4,
+    "description": "Convenient and nutritious canned beans."
+  },
+  {
+    "id": 22,
+    "name": "Canned Tomatoes",
+    "price": 2.0,
+    "image": "images/canned_tomatoes.jpg",
+    "category": "Pantry Staples",
+    "stock": 20,
+    "rating": 4.3,
+    "description": "Rich and flavorful canned tomatoes."
+  },
+  {
+    "id": 23,
+    "name": "Olive Oil",
+    "price": 7.0,
+    "image": "images/olive_oil.jpg",
+    "category": "Pantry Staples",
+    "stock": 15,
+    "rating": 4.7,
+    "description": "Premium quality olive oil."
+  },
+
+  
+  {
+    "id": 24,
+    "name": "Chips",
+    "price": 2.5,
+    "image": "images/chips.jpg",
+    "category": "Snacks & Sweets",
+    "stock": 50,
+    "rating": 4.3,
+    "description": "Crunchy and flavorful chips."
+  },
+  {
+    "id": 25,
+    "name": "Nuts",
+    "price": 5.0,
+    "image": "images/nuts.jpg",
+    "category": "Snacks & Sweets",
+    "stock": 30,
+    "rating": 4.8,
+    "description": "Healthy and crunchy nuts."
+  },
+  {
+    "id": 26,
+    "name": "Chocolate",
+    "price": 3.0,
+    "image": "images/chocolate.jpg",
+    "category": "Snacks & Sweets",
+    "stock": 40,
+    "rating": 4.7,
+    "description": "Delicious and rich chocolate."
+  },
+  {
+    "id": 27,
+    "name": "Cookies",
+    "price": 2.5,
+    "image": "images/cookies.jpg",
+    "category": "Snacks & Sweets",
+    "stock": 35,
+    "rating": 4.6,
+    "description": "Freshly baked cookies."
+  },
+
+  
+  {
+    "id": 28,
+    "name": "Coffee",
+    "price": 5.0,
+    "image": "images/coffee.jpg",
+    "category": "Beverages",
+    "stock": 30,
+    "rating": 4.8,
+    "description": "Rich and aromatic coffee."
+  },
+  {
+    "id": 29,
+    "name": "Tea",
+    "price": 3.0,
+    "image": "images/tea.jpg",
+    "category": "Beverages",
+    "stock": 40,
+    "rating": 4.6,
+    "description": "Refreshing and soothing tea."
+  },
+  {
+    "id": 30,
+    "name": "Juice",
+    "price": 4.0,
+    "image": "images/juice.jpg",
+    "category": "Beverages",
+    "stock": 20,
+    "rating": 4.5,
+    "description": "Healthy and refreshing juice."
+  },
+
+  {
+    "id": 31,
+    "name": "Paper Towels",
+    "price": 5.0,
+    "image": "images/paper_towels.jpg",
+    "category": "Household Items",
+    "stock": 25,
+    "rating": 4.7,
+    "description": "High-quality paper towels."
+  },
+  {
+    "id": 32,
+    "name": "Toilet Paper",
+    "price": 6.0,
+    "image": "images/toilet_paper.jpg",
+    "category": "Household Items",
+    "stock": 30,
+    "rating": 4.8,
+    "description": "Soft and durable toilet paper."
+  },
+  {
+    "id": 33,
+    "name": "Laundry Detergent",
+    "price": 8.0,
+    "image": "images/laundry_detergent.jpg",
+    "category": "Household Items",
+    "stock": 20,
+    "rating": 4.6,
+    "description": "Effective and fresh laundry detergent."
+  },
+  {
+    "id": 34,
+    "name": "Dish Soap",
+    "price": 3.5,
+    "image": "images/dish_soap.jpg",
+    "category": "Household Items",
+    "stock": 25,
+    "rating": 4.4,
+    "description": "Gentle and effective dish soap."
+  }
+]
